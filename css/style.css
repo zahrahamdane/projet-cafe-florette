@@ -9,6 +9,7 @@
 html,
 body {
   font-family: "Open Sans", sans-serif;
+  color: #222;
 }
 
 h1,
@@ -51,13 +52,18 @@ a {
   color: white;
 }
 
+.container {
+  max-width: 1000px;
+  display: block;
+  margin: auto;
+}
 .my-10 {
   margin-top: 10px;
   margin-bottom: 10px;
 }
 
 /* /* Value proposition */
-*/ .header {
+.header {
   background: #333;
   overflow: auto;
   line-height: 1.7em;
@@ -121,4 +127,17 @@ a {
   font-size: 18px;
   letter-spacing: 0.5px;
   line-height: 1.9em;
+}
+
+/* Features */
+
+.features {
+  overflow: auto;
+  padding: 100px 0px;
+  text-align: center;
+}
+
+.feature {
+  float: left;
+  width: 50%;
 }
